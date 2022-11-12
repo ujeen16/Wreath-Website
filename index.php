@@ -8,8 +8,15 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
     integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
     crossorigin="anonymous"></script>
+    <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="images/wreath_logo_white_favicon.png">
-    <link rel="stylesheet" href="style.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -27,7 +34,7 @@
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="about.php">ABOUT</a></li>
                     <li><a href="gallery.php">GALLERY</a></li>
-                    <!--<li><a href="blog.php">BLOG</a></li>-->
+                    <li><a href="blog.php">BLOG</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                 </ul>
             </div>
@@ -132,6 +139,149 @@
     </div>
 
   </section>
+<!------- Process Design Slider -------->
+
+<section class="Design-Slider">
+      <div class="design-slider-content mySwiper">
+      <h1>The Wreath Crafting Process</h1>
+        <div class="design-slide swiper-wrapper">
+          <!-- content 1 -->
+          <div class="slide-content swiper-slide">
+            <!--<h1>The Wreath Crafting Process</h1>-->
+            <div class="split-holder">
+              <div class="left-content">
+                <img src="images/slider/firstcontact.png" alt="" class="image" />
+                <a class="accredit" href="http://www.freepik.com">Designed by vector4stock / Freepik</a>
+              </div>
+              <div class="right-content">
+                <h2>Stage 1: First Contact/Contact Form</h2>
+                <p>
+                  The first step toward any wreath is by using the contact form. If there is a wreath you specifically
+                  want that has been made before it can be remade. However, Amy
+                  has a large stock of wreath making materials and if you would
+                  like to explore alternative designs or colors that is
+                  absolutely part of the process. If you have any questions or
+                  would just like a consultation please fill out the form or
+                  send an email and we can talk through the process together.
+                </p>
+              </div>
+            </div>
+            <div class="design-slider-buttons">
+              <a href="contact.php" class="hero-btn red-btn">Pricing</a>
+              <a href="contact.php" class="hero-btn red-btn">Contact Me</a>
+            </div>
+          </div>
+          <!-- content 2 -->
+          <div class="slide-content swiper-slide">
+            <div class="split-holder">
+              <div class="left-content">
+                <img
+                  src="images/slider/design.png"
+                  alt=""
+                  class="image"
+                />
+                <a class="accredit" href="http://www.freepik.com">Designed by vector4stock / Freepik</a>
+              </div>
+              <div class="right-content">
+                <h2>Stage 2: Planning/Drafting</h2>
+                <p>
+                  After contacting The Wreath Crafteria there will be a
+                  consultation phase which may take place via messaging or a
+                  phone call. In this consultation you may either request a
+                  specific wreath or have a discussion on the possible designs.
+                  Any theme has potential to make an amazing wreath!
+                </p>
+              </div>
+            </div>
+            <div class="design-slider-buttons">
+              <a href="contact.php" class="hero-btn red-btn">Pricing</a>
+              <a href="contact.php" class="hero-btn red-btn">Contact Me</a>
+            </div>
+          </div>
+           <!-- content 3 -->
+          <div class="slide-content swiper-slide">
+            <div class="split-holder">
+              <div class="left-content">
+                <img src="images/slider/building.png" alt="" class="image" />
+                <a class="accredit" href="http://www.freepik.com">Designed by pch.vector / Freepik</a>
+              </div>
+              <div class="right-content">
+                <h2>Stage 3: Building/Revisions</h2>
+                <p>
+                  Once a wreath design has been decided upon the next stage is
+                  the building phase. Some wreaths take longer than others and
+                  Amy will not put out work that is subpar with fraying. This
+                  phase should not take longer than a week and once the initial
+                  wreath is finished a picture will be sent to the recipient
+                  prior to purchase. It is possible to change some things about
+                  the wreath after the building phase such as the sign.
+                </p>
+              </div>
+            </div>
+            <div class="design-slider-buttons">
+              <a href="contact.php" class="hero-btn red-btn">Pricing</a>
+              <a href="contact.php" class="hero-btn red-btn">Contact Me</a>
+            </div>
+          </div>
+          <!-- content 4 -->
+          <div class="slide-content swiper-slide">
+            <div class="split-holder">
+              <div class="left-content">
+                <img src="images/slider/shippinga.png" alt="" class="image" />
+                <a class="accredit" href="http://www.freepik.com">Designed by vector4stock / Freepik</a>
+              </div>
+              <div class="right-content">
+                <h2>Stage 4: Shipping/Payment</h2>
+                <p>
+                  If you are local to Plattsburgh then local delivery could be
+                  plausible. Otherwise, the customer must cover the cost of
+                  shipping as an additional charge with the cost of the wreath.
+                  Payment may be sent through paypal and the wreath should reach
+                  the customer within one business week. If there are any
+                  questions or desire for other payment method please contact
+                  The Wreath Crafteria with any concerns.
+                </p>
+              </div>
+            </div>
+            <div class="design-slider-buttons">
+              <a href="contact.php" class="hero-btn red-btn">Pricing</a>
+              <a href="contact.php" class="hero-btn red-btn">Contact Me</a>
+            </div>
+          </div>
+          <!-- content 5 -->
+          <div class="slide-content swiper-slide">
+            <div class="split-holder">
+              <div class="left-content">
+                <img
+                  src="images/slider/support.png"
+                  alt=""
+                  class="image"
+                />
+                <a class="accredit" href="http://www.freepik.com">Designed by vector4stock / Freepik</a>
+              </div>
+              <div class="right-content">
+                <h2>Stage 5: Support</h2>
+                <p>
+                  After the wreath has been shipped you're not on your own. The
+                  Wreath Crafteria guarantees that you will love your wreath and
+                  if you do not then you are eligible for a full refund. If
+                  there are any questions or cause for concern do not hesitate
+                  to reach out to 'support@thewreathcrafteria.com'.
+                </p>
+              </div>
+            </div>
+            <div class="design-slider-buttons">
+              <a href="contact.php" class="hero-btn red-btn">Pricing</a>
+              <a href="contact.php" class="hero-btn red-btn">Contact Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
 
 <!-------- testimonials -------->
 
@@ -206,6 +356,12 @@
             ALL RIGHTS RESERVED <i class="fa fa-copyright"></i> 2022 The Wreath Crafteria
         </p>
  </section>
+
+<!-------- Swiper JS --------->
+<script src="swiper-bundle.min.js"></script>
+
+<!-- Java Script for slider -->
+<script src="script.js"></script>
 
 <!--------JavaScript for Toggle Menu-------->
 <script>
